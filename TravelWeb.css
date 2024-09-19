@@ -9,7 +9,7 @@
     height: 80vh; /* Use viewport height for full screen header */
     background-image: linear-gradient(rgba(21, 33, 70, 0.459), rgba(255, 255, 255, 0.356)), url(TravelImages/IMG_7531.JPG);
     background-color: #000000;
-    background-size: cover; /* Adjust to cover the entire header */
+    background-size: auto; /* Adjust to cover the entire header */
     background-position: center top; /* Center the background image */
     background-attachment: fixed; /* Fix background image on scroll */
     padding-top: 20px;
@@ -234,11 +234,12 @@
     height: 90%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.575), rgba(0, 0, 0, 0.548)), url(TravelImages/IMG_7521.JPG);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     padding-bottom: 14%;
     padding-top: 14%;
     background-repeat: no-repeat;
+    background-color: #000;
     
 }
 .banner-highlights {
