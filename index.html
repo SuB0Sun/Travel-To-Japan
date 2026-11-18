@@ -19,105 +19,22 @@
     <section class="header">
         <div class="container">
             <img src="TravelImages/triptok.png" alt="TripTok Logo">
-            <button type="button" class="login-btn">Login</button>
+            <button type="button" id="login-btn" class="login-btn">Login</button>
         </div>
         <h1>Travel to Japan</h1>
         <p>Make your trip worth it! Plan for Japan!</p>
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for Places and Events in Japan">
+        <form id="search-form" class="input-group" role="search">
+            <input type="search" id="search-input" class="form-control" placeholder="Search for Places and Events in Japan" aria-label="Search destinations">
             <button type="submit" class="input-group-text btn">Search</button>
-            
-        </div>
+        </form>
     </section>
     
-    <section class="features">
+    <section class="features" id="destinations">
         <h1>Popular Destinations</h1>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="feature-img">
-                            <img src="Japanimage/andy-photos/IMG_7532.JPG" alt="Waterfall and green cliffs near Mount Fuji" class="destination-image1">
-                            <div class="price">
-                                <p>Free</p>
-                            </div>
-                            <div class="rating">
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>   
-                        </div>
-                        <div class="feature-details">
-                            <h4>"Somewhere Near Mount Fuji"</h4>
-                            <h5>Central Honshu, Japan</h5>
-                            <p>Photo is provided by an anonymous source. Source location: "Somewhere near Mount Fuji."</p>
-                            <div>
-                                <span><i class="fa-solid fa-location-dot"></i> Somewhere Near Mount Fuji</span>
-                                <span><i class="fa-solid fa-sun"></i> 4 Days</span>
-                                <span><i class="fa-solid fa-moon"></i> 3 Nights</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="feature-img">
-                            <img src="Japanimage/andy-photos/IMG_7528.JPG" alt="Mount Fuji">
-                            <div class="price">
-                                <p>$13-$14</p>
-                            </div>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke">4.6</i>
-                                
-                            </div>   
-                        </div>
-                        <div class="feature-details">
-                            <h4>Mount Fuji</h4>
-                            <h5>Central Honshu, Japan</h5>
-                            <p>Mount Fuji is a beautiful place and is well renowned internationally as Japan's highest peak. As a result of its growing fame, there has been a significant increase in the number of tourists causing the prefectural government to start charging tourists for admission. This was done as a means to slow the number of incoming tourists as well as preserve the beauty of Mount Fuji. If you are planning a trip to Mount Fuji, please visit the link <a href="https://www.fujisan-climb.jp/en/" target="_blank">Here</a> to learn more.</p>
-                            <div>
-                                <span><a href="https://www.google.com/maps/place/mount+fuji/data=!4m2!3m1!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df?sa=X&ved=1t:155783&ictx=111" target="_blank"><i class="fa-solid fa-location-dot"></i></a>Kitayama, Fujinomiya, Shizuoka 418-0112, Japan</span>
-                                <span><i class="fa-solid fa-sun"></i> 4 Days</span>
-                                <span><i class="fa-solid fa-moon"></i> 3 Nights</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="feature-img">
-                            <img src="Japanimage/andy-photos/IMG_7520.JPG" alt="Tokyo Skytree">
-                            <div class="price">
-                                <p>$14-$24</p>
-                            </div>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke">4.5</i>
-                               
-                            </div>   
-                        </div>
-                        <div class="feature-details">
-                            <h4>Tokyo Skytree</h4>
-                            <h5>Sumida City, Tokyo, Japan</h5>
-                            <p>The Tokyo Skytree provides the "Tembo Deck" ticket at $14 dollars per adult which allows you to enter the tower up to 350 meters. In order to get to the top floor, the admission fee raises an extra $10. If you are interested in learning more, please visit the link <a href="https://www.tokyo-skytree.jp/en/ticket/individual/" target="_blank">Here</a>.</p>
-                            <div>
-                                <span><a href="https://www.google.com/maps/place/Tokyo+Skytree/@35.7100627,139.8081255,17z/data=!3m1!4b1!4m6!3m5!1s0x60188ed0d12f9adf:0x7d1d4fb31f43f72a!8m2!3d35.7100627!4d139.8107004!16zL20vMDd0aGty?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fa-solid fa-location-dot" ></i></a>1 Chome-1-2 Oshiage, Sumida City, Tokyo 131-0045, Japan</span>
-                                <span><i class="fa-solid fa-sun"></i> 4 Days</span>
-                                <span><i class="fa-solid fa-moon"></i> 3 Nights</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Cards are built by js/main.js from the list in js/destinations.js -->
+            <div class="row" id="destination-list"></div>
+            <p id="no-results" class="no-results" hidden>No destinations match your search. Try "Fuji" or "Tokyo".</p>
         </div>
     </section>
     <section class="gallery">
@@ -160,7 +77,7 @@
                     <p>Ticket times, prices, and dates here</p>
                     </div>
                     <div class="col-md-4">
-                    <button type="button" class="booking-btn">Booking Here</button>
+                    <button type="button" id="booking-btn" class="booking-btn">Booking Here</button>
 
                 </div>
             </div>
@@ -234,5 +151,63 @@
     <p class="copyright">Made with <i class="fa-solid fa-heart"></i> by Tusun Lee</p>
     </div>
    </section>
+   <!-- Gallery lightbox -->
+   <dialog id="lightbox" class="lightbox">
+    <div class="dialog-body">
+        <button type="button" class="dialog-close" aria-label="Close">&times;</button>
+        <img id="lightbox-image" alt="">
+        <p id="lightbox-caption"></p>
+    </div>
+   </dialog>
+
+   <!-- Login form -->
+   <dialog id="login-dialog" class="form-dialog" aria-labelledby="login-title">
+    <div class="dialog-body">
+        <button type="button" class="dialog-close" aria-label="Close">&times;</button>
+        <h2 id="login-title">Login</h2>
+        <form novalidate>
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" name="login-email" class="form-control" autocomplete="email">
+            <p class="field-error" id="login-email-error"></p>
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" name="login-password" class="form-control" autocomplete="current-password">
+            <p class="field-error" id="login-password-error"></p>
+            <button type="submit" class="submit-btn">Log in</button>
+            <p class="form-status" role="status"></p>
+        </form>
+    </div>
+   </dialog>
+
+   <!-- Booking form -->
+   <dialog id="booking-dialog" class="form-dialog" aria-labelledby="booking-title">
+    <div class="dialog-body">
+        <button type="button" class="dialog-close" aria-label="Close">&times;</button>
+        <h2 id="booking-title">Book a Trip</h2>
+        <form novalidate>
+            <label for="booking-name">Full name</label>
+            <input type="text" id="booking-name" name="booking-name" class="form-control" autocomplete="name">
+            <p class="field-error" id="booking-name-error"></p>
+            <label for="booking-email">Email</label>
+            <input type="email" id="booking-email" name="booking-email" class="form-control" autocomplete="email">
+            <p class="field-error" id="booking-email-error"></p>
+            <label for="booking-destination">Destination</label>
+            <select id="booking-destination" name="booking-destination" class="form-control">
+                <option value="">Choose a destination</option>
+            </select>
+            <p class="field-error" id="booking-destination-error"></p>
+            <label for="booking-date">Trip date</label>
+            <input type="date" id="booking-date" name="booking-date" class="form-control">
+            <p class="field-error" id="booking-date-error"></p>
+            <label for="booking-travelers">Travelers</label>
+            <input type="number" id="booking-travelers" name="booking-travelers" class="form-control" min="1" max="10" value="1">
+            <p class="field-error" id="booking-travelers-error"></p>
+            <button type="submit" class="submit-btn">Request booking</button>
+            <p class="form-status" role="status"></p>
+        </form>
+    </div>
+   </dialog>
+
+   <script src="js/destinations.js"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>

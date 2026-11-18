@@ -363,3 +363,108 @@
 .footer .copyright{
     text-align: center;
 }
+
+
+/* ---------- Added for the JavaScript features ---------- */
+
+/* Search results message */
+.no-results {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555555;
+}
+.rating-number {
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+/* Shared pop-up dialog styles (lightbox, login, booking) */
+dialog {
+    margin: auto; /* the * reset above removes the browser's default centering */
+    border: none;
+    border-radius: 12px;
+    padding: 0; /* padding lives on .dialog-body so clicks on the backdrop can be detected */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+}
+.dialog-body {
+    position: relative;
+    padding: 30px;
+}
+.dialog-close {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* Gallery lightbox */
+.lightbox {
+    max-width: 90vw;
+    background: #000000;
+}
+.lightbox .dialog-body {
+    padding: 40px 20px 20px;
+}
+.lightbox .dialog-close {
+    color: #ffffff;
+}
+.lightbox img {
+    display: block;
+    max-width: 85vw;
+    max-height: 80vh;
+    margin: auto;
+    border-radius: 8px;
+}
+#lightbox-caption {
+    color: #ffffff;
+    text-align: center;
+    margin: 12px 0 0;
+}
+
+/* Login and booking forms */
+.form-dialog {
+    width: min(420px, 92vw);
+}
+.form-dialog h2 {
+    margin-bottom: 20px;
+}
+.form-dialog label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.form-dialog .form-control {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin: 4px 0 0;
+}
+.form-dialog .form-control.is-invalid {
+    border-color: #dc3545;
+}
+.field-error {
+    color: #dc3545;
+    font-size: 0.85rem;
+    min-height: 1.1em;
+    margin: 2px 0 0;
+}
+.submit-btn {
+    width: 100%;
+    margin-top: 18px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+}
+.form-status {
+    margin: 12px 0 0;
+    color: #1f3d90;
+    font-weight: 600;
+}
